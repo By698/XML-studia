@@ -37,4 +37,3 @@
 			<!ATTLIST borrowedMovie id IDREF #IMPLIED>
 			<!ELEMENT borrowDate (#PCDATA)>
 			<!ELEMENT returnDate (#PCDATA)>
-			
