@@ -6,6 +6,7 @@ xmlns="https://www.w3schools.com"
 elementFormDefault="qualified">
 
   <xs:element name="movieRental">
+
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="header"/>
@@ -14,17 +15,17 @@ elementFormDefault="qualified">
       </xs:sequence>
     </xs:complexType>
 
-	<xs:unique name="unikalnyNrKlienta">
-	  <xs:selector xpath="./bk:borrows/bk:borrow/bk:client"/>
-	  <xs:field xpath="@id"/>
-	</xs:unique>
+    <xs:unique name="unikalnyNrKlienta">
+      <xs:selector xpath="./bk:borrows/bk:borrow/bk:client"/>
+      <xs:field xpath="@id"/>
+    </xs:unique>
 
-	<xs:keyref name="bMovieID" refer="movieID">
+	  <xs:keyref name="bMovieID" refer="movieID">
       <xs:selector xpath="./bk:borrows/bk:borrow/bk:borrowedMovie"/>
       <xs:field xpath="@id"/>
     </xs:keyref>
     
- 	<xs:key name="movieID">
+ 	  <xs:key name="movieID">
       <xs:selector xpath="./bk:movies/bk:movie"/>
       <xs:field xpath="@id"/>
     </xs:key>
@@ -75,16 +76,16 @@ elementFormDefault="qualified">
     
   <xs:simpleType name="firstNameType">
     <xs:restriction base="xs:normalizedString">
-    <xs:maxLength value="10"/>
-    <xs:minLength value="3"/>
+      <xs:maxLength value="10"/>
+      <xs:minLength value="3"/>
       <xs:pattern value="[A-Z][a-z]*"/>
     </xs:restriction>
   </xs:simpleType>
   
   <xs:simpleType name="lastNameType">
     <xs:restriction base="xs:normalizedString">
-    <xs:maxLength value="20"/>
-    <xs:minLength value="3"/>
+      <xs:maxLength value="20"/>
+      <xs:minLength value="3"/>
       <xs:pattern value="[A-Z][a-z]+([- | \s][A-Z][a-z]+)?"/>
     </xs:restriction>
   </xs:simpleType>
@@ -92,27 +93,27 @@ elementFormDefault="qualified">
   <xs:simpleType name="ratingType">
     <xs:restriction base="xs:decimal">
       <xs:minInclusive value="0" />
-	  <xs:maxInclusive value="10" />
+	    <xs:maxInclusive value="10" />
     </xs:restriction>
   </xs:simpleType>
   
   <xs:simpleType name="priceType">
     <xs:restriction base="xs:decimal">
       <xs:minInclusive value="0" />
-	  <xs:totalDigits value="4" />
+	    <xs:totalDigits value="4" />
     </xs:restriction>
   </xs:simpleType>
 
 	<xs:simpleType name="idTypeClient">
 		<xs:restriction base="xs:normalizedString">
-      		<xs:pattern value = "[c][0-9]{6}" />
-    	</xs:restriction>
+      <xs:pattern value = "[c][0-9]{6}" />
+    </xs:restriction>
 	</xs:simpleType>
 	
 	<xs:simpleType name="idTypeMovie">
 		<xs:restriction base="xs:normalizedString">
-      		<xs:pattern value = "[m][0-9]{4}" />
-    	</xs:restriction>
+      <xs:pattern value = "[m][0-9]{4}" />
+    </xs:restriction>
 	</xs:simpleType>
  
 <!--Proste elementy w movies-->
