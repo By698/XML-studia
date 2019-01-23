@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<!DOCTYPE movieRental SYSTEM "Wypożyczalnia.dtd">
+
+<movieRental>
+  <header>
+    <authors>
+      <author>Damian Byszewski</author>
+      <author>Bartosz Krukowski</author>
+    </authors>
+    <fileDescription>Wypożyczalnia filmów stworzona na potrzeby projektu z przedmiotu "Technologie XML".</fileDescription>
+  </header>
+  <genres>
+    <genre genre="Dramat"/>
+    <genre genre="Biograficzny"/>
+    <genre genre="Dramat_sądowy"/>
+    <genre genre="Fantasy"/>
+    <genre genre="Gangsterski"/>
+    <genre genre="Kryminał"/>
+    <genre genre="Thriller"/>
+    <genre genre="Surrealistyczny"/>
+    <genre genre="Western"/>
+    <genre genre="Animacja"/>
+    <genre genre="Akcja"/>
+    <genre genre="Dramat_historyczny"/>
+  </genres>
+  <movies>
+    <movie genre="Dramat" id="m3273">
+      <title>Więzień nienawiści</title>
+      <director>Tony Kaye</director>
+      <year>1998</year>
+      <rating>8.14</rating>
+      <description>Były neonazista po wyjściu z więzienia stara się przekonać młodszego brata, by nie podążał jego śladem.</description>
+      <price class="PLN">16.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Akcja" id="m7256">
+      <title>Avengers: Wojna bez granic</title>
+      <director>Anthony Russo</director>
+      <year>2018</year>
+      <rating>8.12</rating>
+      <description>Potężny Thanos zbiera Kamienie Nieskończoności w celu narzucenia swojej woli wszystkim istnieniom we wszechświecie. Tylko drużyna superbohaterów znanych jako Avengers może go powstrzymać.</description>
+      <price class="PLN">5.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Western" id="m5829">
+      <title>Django</title>
+      <director>Quentin Tarantino</director>
+      <year>2012</year>
+      <rating>8.21</rating>
+      <description>Łowca nagród Schultz i czarnoskóry niewolnik Django wyruszają w podróż, aby odbić żonę tego drugiego z rąk bezlitosnego Calvina Candie'ego.</description>
+      <price class="PLN">14.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m9328">
+      <title>Człowiek z blizną</title>
+      <director>Brian De Palma</director>
+      <year>1983</year>
+      <rating>8.2</rating>
+      <description>Kubański emigrant Tony Montana opuszcza ojczyznę i przybywa do Miami. Razem z przyjacielem, Mannym Riberą, zaczyna pracować dla mafii narkotykowej.</description>
+      <price class="PLN">11.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Biograficzny" id="m5620">
+      <title>Nietykalni</title>
+      <director>Olivier Nakache</director>
+      <year>2011</year>
+      <rating>8.64</rating>
+      <description>Sparaliżowany milioner zatrudnia do opieki młodego chłopaka z przedmieścia, który właśnie wyszedł z więzienia.</description>
+      <price class="PLN">16.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Dramat_sądowy" id="m1161">
+      <title>Dwunastu gniewnych ludzi</title>
+      <director>Sidney Lumet</director>
+      <year>1957</year>
+      <rating>8.53</rating>
+      <description>Dwunastu przysięgłych ma wydać wyrok w procesie o morderstwo. Jeden z nich ma wątpliwości dotyczące winy oskarżonego.</description>
+      <price class="PLN">12.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Kryminał" id="m4739">
+      <title>Siedem</title>
+      <director>David Fincher</director>
+      <year>1995</year>
+      <rating>8.27</rating>
+      <description>Dwóch policjantów stara się złapać seryjnego mordercę wybierającego swoje ofiary wg specjalnego "klucza".</description>
+      <price class="PLN">15.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m7034">
+      <title>Chłopiec w pasiastej piżamie</title>
+      <director>Mark Herman</director>
+      <year>2008</year>
+      <rating>8.09</rating>
+      <description>Ośmioletni syn niemieckiego oficera SS zaprzyjaźnia się z żydowskim chłopcem przebywającym w obozie.</description>
+      <price class="PLN">5.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m1786">
+      <title>Zielona mila</title>
+      <director>Frank Darabont</director>
+      <year>1999</year>
+      <rating>8.61</rating>
+      <description>Emerytowany strażnik więzienny opowiada przyjaciółce o niezwykłym mężczyźnie, którego skazano na śmierć za zabójstwo dwóch 9-letnich dziewczynek.</description>
+      <price class="PLN">5.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Dramat_historyczny" id="m3573">
+      <title>Gladiator</title>
+      <director>Ridley Scott</director>
+      <year>2000</year>
+      <rating>8.08</rating>
+      <description>Generał Maximus - prawa ręka cesarza, szczęśliwy mąż i ojciec - w jednej chwili traci wszystko. Jako niewolnik-gladiator musi walczyć na arenie o przeżycie.</description>
+      <price class="PLN">18.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m4253">
+      <title>Lot nad kukułczym gniazdem</title>
+      <director>Miloš Forman</director>
+      <year>1975</year>
+      <rating>8.45</rating>
+      <description>Historia złodzieja, szulera i chuligana, który, by uniknąć więzienia, udaje niepoczytalność. Trafia do szpitala dla umysłowo chorych, gdzie twardą ręką rządzi siostra Ratched.</description>
+      <price class="PLN">7.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Thriller" id="m7542">
+      <title>Podziemny krąg</title>
+      <director>David Fincher</director>
+      <year>1999</year>
+      <rating>8.26</rating>
+      <description>Dwóch mężczyzn znudzonych rutyną zakłada klub, w którym co tydzień odbywają się walki na gołe pięści.</description>
+      <price class="PLN">18.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Animacja" id="m1834">
+      <title>Król Lew</title>
+      <director>Rob Minkoff</director>
+      <year>1994</year>
+      <rating>8.2</rating>
+      <description>Targany niesłusznymi wyrzutami sumienia po śmierci ojca mały lew Simba skazuje się na wygnanie, rezygnując z przynależnego mu miejsca na czele stada.</description>
+      <price class="PLN">4.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m6550">
+      <title>Forrest Gump</title>
+      <director>Robert Zemeckis</director>
+      <year>1994</year>
+      <rating>8.52</rating>
+      <description>Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.</description>
+      <price class="PLN">18.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m4890">
+      <title>Wyspa tajemnic</title>
+      <director>Martin Scorsese</director>
+      <year>2010</year>
+      <rating>8.15</rating>
+      <description>Szeryf federalny Daniels stara się dowiedzieć, jakim sposobem z zamkniętej celi w pilnie strzeżonym szpitalu dla chorych psychicznie przestępców zniknęła pacjentka.</description>
+      <price class="PLN">18.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Thriller" id="m1774">
+      <title>Milczenie owiec</title>
+      <director>Jonathan Demme</director>
+      <year>1991</year>
+      <rating>8.21</rating>
+      <description>Seryjny morderca i inteligentna agentka łączą siły, by znaleźć przestępcę obdzierającego ze skóry swoje ofiary.</description>
+      <price class="PLN">17.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Gangsterski" id="m4372">
+      <title>Pulp Fiction</title>
+      <director>Quentin Tarantino</director>
+      <year>1994</year>
+      <rating>8.32</rating>
+      <description>Przemoc i odkupienie w opowieści o dwóch płatnych mordercach pracujących na zlecenie mafii, żonie gangstera, bokserze i parze okradającej ludzi w restauracji.</description>
+      <price class="PLN">9.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m2760">
+      <title>Chłopcy z ferajny</title>
+      <director>Martin Scorsese</director>
+      <year>1990</year>
+      <rating>8.24</rating>
+      <description>Kilkunastoletni Henry i Tommy DeVito trafiają pod opiekę potężnego gangstera. Obaj szybko uczą się panujących w mafii reguł.</description>
+      <price class="PLN">17.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m7968">
+      <title>Lista Schindlera</title>
+      <director>Steven Spielberg</director>
+      <year>1993</year>
+      <rating>8.33</rating>
+      <description>Historia przedsiębiorcy Oskara Schindlera, który podczas II wojny światowej uratował przed pobytem w obozach koncentracyjnych 1100 Żydów.</description>
+      <price class="PLN">9.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Surrealistyczny" id="m4030">
+      <title>Incepcja</title>
+      <director>Christopher Nolan</director>
+      <year>2010</year>
+      <rating>8.23</rating>
+      <description>Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu.</description>
+      <price class="PLN">6.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m8073">
+      <title>Życie jest piękne</title>
+      <director>Roberto Benigni</director>
+      <year>1997</year>
+      <rating>8.29</rating>
+      <description>Zamknięty w obozie koncentracyjnym wraz z synem Guido próbuje przekonać chłopca, że okrutna rzeczywistość jest jedynie formą zabawy dla dorosłych.</description>
+      <price class="PLN">8.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Biograficzny" id="m9054">
+      <title>Piękny umysł</title>
+      <director>Ron Howard</director>
+      <year>2001</year>
+      <rating>8.24</rating>
+      <description>Geniusz matematyczny John Nash za wszelką cenę pragnie opracować teorię, dzięki której zostanie cenionym naukowcem. Przeszkodą staje się jego stopniowo rozwijająca choroba.</description>
+      <price class="PLN">11.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Biograficzny" id="m6199">
+      <title>Pianista</title>
+      <director>Roman Polański</director>
+      <year>2002</year>
+      <rating>8.23</rating>
+      <description>Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie.</description>
+      <price class="PLN">10.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m4055">
+      <title>Leon zawodowiec</title>
+      <director>Luc Besson</director>
+      <year>1994</year>
+      <rating>8.11</rating>
+      <description>Płatny morderca ratuje dwunastoletnią dziewczynkę, której rodzina została zabita przez skorumpowanych policjantów.</description>
+      <price class="PLN">7.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m9564">
+      <title>Ojciec chrzestny</title>
+      <director>Francis Ford Coppola</director>
+      <year>1972</year>
+      <rating>8.59</rating>
+      <description>Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi.</description>
+      <price class="PLN">12.99</price>
+      <borrowsNumber>1</borrowsNumber>
+    </movie>
+    <movie genre="Fantasy" id="m7032">
+      <title>Władca Pierścieni: Dwie wieże</title>
+      <director>Peter Jackson</director>
+      <year>2002</year>
+      <rating>8.26</rating>
+      <description>Drużyna Pierścienia zostaje rozbita, lecz zdesperowany Frodo za wszelką cenę chce wypełnić powierzone mu zadanie. Aragorn z towarzyszami przygotowuje się, by odeprzeć atak hord Sarumana.</description>
+      <price class="PLN">12.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m9346">
+      <title>Skazani na Shawshank</title>
+      <director>Frank Darabont</director>
+      <year>1994</year>
+      <rating>8.75</rating>
+      <description>Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie.</description>
+      <price class="PLN">11.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Fantasy" id="m6937">
+      <title>Władca Pierścieni: Powrót króla</title>
+      <director>Peter Jackson</director>
+      <year>2003</year>
+      <rating>8.33</rating>
+      <description>Zwieńczenie filmowej trylogii wg powieści Tolkiena. Aragorn jednoczy siły Śródziemia, szykując się do bitwy, która ma odwrócić uwagę Saurona od podążających w kierunku Góry Przeznaczenia hobbitów.</description>
+      <price class="PLN">18.99</price>
+      <borrowsNumber>2</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m4445">
+      <title>Ojciec chrzestny II</title>
+      <director>Francis Ford Coppola</director>
+      <year>1974</year>
+      <rating>8.39</rating>
+      <description>Rok 1917. Młody Vito Corleone stawia pierwsze kroki w mafijnym świecie Nowego Jorku. Ponad 40 lat później jego syn Michael walczy o interesy i dobro rodziny.</description>
+      <price class="PLN">9.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+    <movie genre="Dramat" id="m4699">
+      <title>Gran Torino</title>
+      <director>Clint Eastwood</director>
+      <year>2008</year>
+      <rating>8.17</rating>
+      <description>Walt Kowalski to emerytowany weteran żyjący we własnym poukładanym świecie. Jego spokój zostaje zburzony przez nowych sąsiadów z Azji, których syn spróbuje ukraść mu ulubione auto.</description>
+      <price class="PLN">8.99</price>
+      <borrowsNumber>3</borrowsNumber>
+    </movie>
+  </movies>
+  <borrows>
+    <borrow>
+      <client id="c119747">
+        <firstname>Sondra</firstname>
+        <lastname>Upton</lastname>
+      </client>
+      <borrowedMovie id="m6550">
+        <title>Forrest Gump</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>19-10-2018</borrowDate>
+      <returnDate>2-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c293337">
+        <firstname>Sharri</firstname>
+        <lastname>Witting</lastname>
+      </client>
+      <borrowedMovie id="m6937">
+        <title>Władca Pierścieni: Powrót króla</title>
+        <year>2003</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c258819">
+        <firstname>Dave</firstname>
+        <lastname>Paucek</lastname>
+      </client>
+      <borrowedMovie id="m3273">
+        <title>Więzień nienawiści</title>
+        <year>1998</year>
+      </borrowedMovie>
+      <borrowDate>19-10-2018</borrowDate>
+      <returnDate>2-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c767916">
+        <firstname>Rod</firstname>
+        <lastname>Hickle</lastname>
+      </client>
+      <borrowedMovie id="m7256">
+        <title>Avengers: Wojna bez granic</title>
+        <year>2018</year>
+      </borrowedMovie>
+      <borrowDate>9-10-2018</borrowDate>
+      <returnDate>23-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c864027">
+        <firstname>Jimmy</firstname>
+        <lastname>Rosenbaum</lastname>
+      </client>
+      <borrowedMovie id="m6199">
+        <title>Pianista</title>
+        <year>2002</year>
+      </borrowedMovie>
+      <borrowDate>9-10-2018</borrowDate>
+      <returnDate>23-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c556433">
+        <firstname>Jade</firstname>
+        <lastname>Larkin</lastname>
+      </client>
+      <borrowedMovie id="m7256">
+        <title>Avengers: Wojna bez granic</title>
+        <year>2018</year>
+      </borrowedMovie>
+      <borrowDate>11-10-2018</borrowDate>
+      <returnDate>25-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c230455">
+        <firstname>Ronald</firstname>
+        <lastname>Bernier</lastname>
+      </client>
+      <borrowedMovie id="m3573">
+        <title>Gladiator</title>
+        <year>2000</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c833929">
+        <firstname>Reda</firstname>
+        <lastname>Herman</lastname>
+      </client>
+      <borrowedMovie id="m4253">
+        <title>Lot nad kukułczym gniazdem</title>
+        <year>1975</year>
+      </borrowedMovie>
+      <borrowDate>16-10-2018</borrowDate>
+      <returnDate>30-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c607767">
+        <firstname>Frank</firstname>
+        <lastname>Wiza</lastname>
+      </client>
+      <borrowedMovie id="m7032">
+        <title>Władca Pierścieni: Dwie wieże</title>
+        <year>2002</year>
+      </borrowedMovie>
+      <borrowDate>21-10-2018</borrowDate>
+      <returnDate>4-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c340456">
+        <firstname>Jose</firstname>
+        <lastname>Howe</lastname>
+      </client>
+      <borrowedMovie id="m5829">
+        <title>Django</title>
+        <year>2012</year>
+      </borrowedMovie>
+      <borrowDate>11-10-2018</borrowDate>
+      <returnDate>25-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c589268">
+        <firstname>Johnathon</firstname>
+        <lastname>Stamm</lastname>
+      </client>
+      <borrowedMovie id="m9054">
+        <title>Piękny umysł</title>
+        <year>2001</year>
+      </borrowedMovie>
+      <borrowDate>15-10-2018</borrowDate>
+      <returnDate>29-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c156542">
+        <firstname>Carlena</firstname>
+        <lastname>Roberts</lastname>
+      </client>
+      <borrowedMovie id="m3573">
+        <title>Gladiator</title>
+        <year>2000</year>
+      </borrowedMovie>
+      <borrowDate>20-10-2018</borrowDate>
+      <returnDate>3-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c991510">
+        <firstname>Raphael</firstname>
+        <lastname>Wiza</lastname>
+      </client>
+      <borrowedMovie id="m9328">
+        <title>Człowiek z blizną</title>
+        <year>1983</year>
+      </borrowedMovie>
+      <borrowDate>14-10-2018</borrowDate>
+      <returnDate>28-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c593244">
+        <firstname>Nakita</firstname>
+        <lastname>Morar</lastname>
+      </client>
+      <borrowedMovie id="m5620">
+        <title>Nietykalni</title>
+        <year>2011</year>
+      </borrowedMovie>
+      <borrowDate>19-10-2018</borrowDate>
+      <returnDate>2-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c830709">
+        <firstname>Kanisha</firstname>
+        <lastname>Orn</lastname>
+      </client>
+      <borrowedMovie id="m1161">
+        <title>Dwunastu gniewnych ludzi</title>
+        <year>1957</year>
+      </borrowedMovie>
+      <borrowDate>12-10-2018</borrowDate>
+      <returnDate>26-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c668259">
+        <firstname>Tayna</firstname>
+        <lastname>Schimmel</lastname>
+      </client>
+      <borrowedMovie id="m4739">
+        <title>Siedem</title>
+        <year>1995</year>
+      </borrowedMovie>
+      <borrowDate>21-10-2018</borrowDate>
+      <returnDate>4-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c182592">
+        <firstname>Bill</firstname>
+        <lastname>Senger</lastname>
+      </client>
+      <borrowedMovie id="m7034">
+        <title>Chłopiec w pasiastej piżamie</title>
+        <year>2008</year>
+      </borrowedMovie>
+      <borrowDate>17-10-2018</borrowDate>
+      <returnDate>31-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c653366">
+        <firstname>Cecily</firstname>
+        <lastname>Block</lastname>
+      </client>
+      <borrowedMovie id="m7542">
+        <title>Podziemny krąg</title>
+        <year>1999</year>
+      </borrowedMovie>
+      <borrowDate>15-10-2018</borrowDate>
+      <returnDate>29-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c873512">
+        <firstname>David</firstname>
+        <lastname>Little</lastname>
+      </client>
+      <borrowedMovie id="m4253">
+        <title>Lot nad kukułczym gniazdem</title>
+        <year>1975</year>
+      </borrowedMovie>
+      <borrowDate>21-10-2018</borrowDate>
+      <returnDate>4-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c991967">
+        <firstname>Devin</firstname>
+        <lastname>Bailey</lastname>
+      </client>
+      <borrowedMovie id="m4372">
+        <title>Pulp Fiction</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>12-10-2018</borrowDate>
+      <returnDate>26-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c852501">
+        <firstname>Yulanda</firstname>
+        <lastname>Jaskolski</lastname>
+      </client>
+      <borrowedMovie id="m1786">
+        <title>Zielona mila</title>
+        <year>1999</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c580447">
+        <firstname>Teddy</firstname>
+        <lastname>Krajcik</lastname>
+      </client>
+      <borrowedMovie id="m1834">
+        <title>Król Lew</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>13-10-2018</borrowDate>
+      <returnDate>27-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c292238">
+        <firstname>Dale</firstname>
+        <lastname>Rippin</lastname>
+      </client>
+      <borrowedMovie id="m3573">
+        <title>Gladiator</title>
+        <year>2000</year>
+      </borrowedMovie>
+      <borrowDate>18-10-2018</borrowDate>
+      <returnDate>1-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c437019">
+        <firstname>Consuelo</firstname>
+        <lastname>Harvey</lastname>
+      </client>
+      <borrowedMovie id="m2760">
+        <title>Chłopcy z ferajny</title>
+        <year>1990</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c804885">
+        <firstname>Forest</firstname>
+        <lastname>Kuphal</lastname>
+      </client>
+      <borrowedMovie id="m4253">
+        <title>Lot nad kukułczym gniazdem</title>
+        <year>1975</year>
+      </borrowedMovie>
+      <borrowDate>11-10-2018</borrowDate>
+      <returnDate>25-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c656712">
+        <firstname>Wen</firstname>
+        <lastname>Jast</lastname>
+      </client>
+      <borrowedMovie id="m8073">
+        <title>Życie jest piękne</title>
+        <year>1997</year>
+      </borrowedMovie>
+      <borrowDate>12-10-2018</borrowDate>
+      <returnDate>26-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c399025">
+        <firstname>Gerry</firstname>
+        <lastname>Lindgren</lastname>
+      </client>
+      <borrowedMovie id="m4030">
+        <title>Incepcja</title>
+        <year>2010</year>
+      </borrowedMovie>
+      <borrowDate>9-10-2018</borrowDate>
+      <returnDate>23-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c215087">
+        <firstname>Larhonda</firstname>
+        <lastname>Armstrong</lastname>
+      </client>
+      <borrowedMovie id="m7542">
+        <title>Podziemny krąg</title>
+        <year>1999</year>
+      </borrowedMovie>
+      <borrowDate>10-10-2018</borrowDate>
+      <returnDate>24-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c593049">
+        <firstname>Toni</firstname>
+        <lastname>Hagenes</lastname>
+      </client>
+      <borrowedMovie id="m1834">
+        <title>Król Lew</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>17-10-2018</borrowDate>
+      <returnDate>31-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c698424">
+        <firstname>Grisel</firstname>
+        <lastname>Bailey</lastname>
+      </client>
+      <borrowedMovie id="m9346">
+        <title>Skazani na Shawshank</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>18-10-2018</borrowDate>
+      <returnDate>1-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c300903">
+        <firstname>Homer</firstname>
+        <lastname>Wolff</lastname>
+      </client>
+      <borrowedMovie id="m6199">
+        <title>Pianista</title>
+        <year>2002</year>
+      </borrowedMovie>
+      <borrowDate>9-10-2018</borrowDate>
+      <returnDate>23-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c537503">
+        <firstname>Aldo</firstname>
+        <lastname>Moore</lastname>
+      </client>
+      <borrowedMovie id="m6550">
+        <title>Forrest Gump</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>20-10-2018</borrowDate>
+      <returnDate>3-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c193328">
+        <firstname>Frankie</firstname>
+        <lastname>Halvorson</lastname>
+      </client>
+      <borrowedMovie id="m4890">
+        <title>Wyspa tajemnic</title>
+        <year>2010</year>
+      </borrowedMovie>
+      <borrowDate>11-10-2018</borrowDate>
+      <returnDate>25-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c591707">
+        <firstname>Suzann</firstname>
+        <lastname>Berge</lastname>
+      </client>
+      <borrowedMovie id="m7032">
+        <title>Władca Pierścieni: Dwie wieże</title>
+        <year>2002</year>
+      </borrowedMovie>
+      <borrowDate>20-10-2018</borrowDate>
+      <returnDate>3-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c510267">
+        <firstname>Douglas</firstname>
+        <lastname>Waelchi</lastname>
+      </client>
+      <borrowedMovie id="m1774">
+        <title>Milczenie owiec</title>
+        <year>1991</year>
+      </borrowedMovie>
+      <borrowDate>12-10-2018</borrowDate>
+      <returnDate>26-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c347272">
+        <firstname>Eneida</firstname>
+        <lastname>Cassin</lastname>
+      </client>
+      <borrowedMovie id="m4372">
+        <title>Pulp Fiction</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>14-10-2018</borrowDate>
+      <returnDate>28-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c105521">
+        <firstname>Aron</firstname>
+        <lastname>Feeney</lastname>
+      </client>
+      <borrowedMovie id="m2760">
+        <title>Chłopcy z ferajny</title>
+        <year>1990</year>
+      </borrowedMovie>
+      <borrowDate>21-10-2018</borrowDate>
+      <returnDate>4-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c820353">
+        <firstname>Ron</firstname>
+        <lastname>Hayes</lastname>
+      </client>
+      <borrowedMovie id="m9346">
+        <title>Skazani na Shawshank</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>13-10-2018</borrowDate>
+      <returnDate>27-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c979700">
+        <firstname>Willia</firstname>
+        <lastname>Kilback</lastname>
+      </client>
+      <borrowedMovie id="m4030">
+        <title>Incepcja</title>
+        <year>2010</year>
+      </borrowedMovie>
+      <borrowDate>14-10-2018</borrowDate>
+      <returnDate>28-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c196484">
+        <firstname>Vernita</firstname>
+        <lastname>Langosh</lastname>
+      </client>
+      <borrowedMovie id="m7968">
+        <title>Lista Schindlera</title>
+        <year>1993</year>
+      </borrowedMovie>
+      <borrowDate>20-10-2018</borrowDate>
+      <returnDate>3-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c430666">
+        <firstname>Joella</firstname>
+        <lastname>Padberg</lastname>
+      </client>
+      <borrowedMovie id="m4030">
+        <title>Incepcja</title>
+        <year>2010</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c841546">
+        <firstname>Romelia</firstname>
+        <lastname>Prohaska</lastname>
+      </client>
+      <borrowedMovie id="m8073">
+        <title>Życie jest piękne</title>
+        <year>1997</year>
+      </borrowedMovie>
+      <borrowDate>13-10-2018</borrowDate>
+      <returnDate>27-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c827205">
+        <firstname>Tatyana</firstname>
+        <lastname>Stracke</lastname>
+      </client>
+      <borrowedMovie id="m4445">
+        <title>Ojciec chrzestny II</title>
+        <year>1974</year>
+      </borrowedMovie>
+      <borrowDate>19-10-2018</borrowDate>
+      <returnDate>2-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c593571">
+        <firstname>Romana</firstname>
+        <lastname>Wyman</lastname>
+      </client>
+      <borrowedMovie id="m9054">
+        <title>Piękny umysł</title>
+        <year>2001</year>
+      </borrowedMovie>
+      <borrowDate>10-10-2018</borrowDate>
+      <returnDate>24-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c135191">
+        <firstname>Jamal</firstname>
+        <lastname>Kreiger</lastname>
+      </client>
+      <borrowedMovie id="m6199">
+        <title>Pianista</title>
+        <year>2002</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c872617">
+        <firstname>Katharina</firstname>
+        <lastname>Sanford</lastname>
+      </client>
+      <borrowedMovie id="m4445">
+        <title>Ojciec chrzestny II</title>
+        <year>1974</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c285503">
+        <firstname>Shavonne</firstname>
+        <lastname>Marks</lastname>
+      </client>
+      <borrowedMovie id="m4055">
+        <title>Leon zawodowiec</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>9-10-2018</borrowDate>
+      <returnDate>23-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c928416">
+        <firstname>Ismael</firstname>
+        <lastname>Goodwin</lastname>
+      </client>
+      <borrowedMovie id="m9564">
+        <title>Ojciec chrzestny</title>
+        <year>1972</year>
+      </borrowedMovie>
+      <borrowDate>20-10-2018</borrowDate>
+      <returnDate>3-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c316183">
+        <firstname>Willena</firstname>
+        <lastname>Zboncak</lastname>
+      </client>
+      <borrowedMovie id="m4699">
+        <title>Gran Torino</title>
+        <year>2008</year>
+      </borrowedMovie>
+      <borrowDate>13-10-2018</borrowDate>
+      <returnDate>27-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c953952">
+        <firstname>Maryetta</firstname>
+        <lastname>Pollich</lastname>
+      </client>
+      <borrowedMovie id="m7032">
+        <title>Władca Pierścieni: Dwie wieże</title>
+        <year>2002</year>
+      </borrowedMovie>
+      <borrowDate>18-10-2018</borrowDate>
+      <returnDate>1-11-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c267045">
+        <firstname>Kermit</firstname>
+        <lastname>Barrows</lastname>
+      </client>
+      <borrowedMovie id="m9346">
+        <title>Skazani na Shawshank</title>
+        <year>1994</year>
+      </borrowedMovie>
+      <borrowDate>14-10-2018</borrowDate>
+      <returnDate>28-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c611529">
+        <firstname>Levi</firstname>
+        <lastname>Jones</lastname>
+      </client>
+      <borrowedMovie id="m6937">
+        <title>Władca Pierścieni: Powrót króla</title>
+        <year>2003</year>
+      </borrowedMovie>
+      <borrowDate>8-10-2018</borrowDate>
+      <returnDate>22-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c240779">
+        <firstname>Malik</firstname>
+        <lastname>Streich</lastname>
+      </client>
+      <borrowedMovie id="m4699">
+        <title>Gran Torino</title>
+        <year>2008</year>
+      </borrowedMovie>
+      <borrowDate>11-10-2018</borrowDate>
+      <returnDate>25-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c161536">
+        <firstname>Carmine</firstname>
+        <lastname>Willms</lastname>
+      </client>
+      <borrowedMovie id="m4445">
+        <title>Ojciec chrzestny II</title>
+        <year>1974</year>
+      </borrowedMovie>
+      <borrowDate>14-10-2018</borrowDate>
+      <returnDate>28-10-2018</returnDate>
+    </borrow>
+    <borrow>
+      <client id="c185514">
+        <firstname>Santana</firstname>
+        <lastname>Herzog</lastname>
+      </client>
+      <borrowedMovie id="m4699">
+        <title>Gran Torino</title>
+        <year>2008</year>
+      </borrowedMovie>
+      <borrowDate>17-10-2018</borrowDate>
+      <returnDate>31-10-2018</returnDate>
+    </borrow>
+  </borrows>
+</movieRental>

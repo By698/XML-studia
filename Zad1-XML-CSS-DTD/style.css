@@ -1,0 +1,372 @@
+movieRental {
+  /*Background esigned by kjpargeter / Freepik*/
+  background-image: url("background.jpg");
+
+  --border: #404040;
+  --background-dark: #383838;;
+  --background-med: #484848;
+  --background-light: #D5D5D5;
+  --text-dark: #303030;
+  --text-light: #D0D0D0;
+  --dramat: #3C64AF;
+  --biograficzny: #EEEEEE;
+  --gangsterski: #19193C;
+  --thriller: #CE5346;
+  --western: #CDA447;
+  --dramat-historyczny: #416776;
+  --fantasy: #7B9D4D;
+  --kryminal: #48160F;
+  --dramat-sadowy: #96A2DD;
+  --animacja: #CB6743;
+  --akcja: #C7CC66;
+  --surrealistyczny: #C49FE0;
+
+}
+
+genre[genre]:before {
+  content: attr(genre);
+}
+
+genre[genre="Dramat_historyczny"]:before {
+  content: "Dramat historyczny";
+}
+
+genre[genre="Dramat_sądowy"]:before {
+  content: "Dramat sądowy";
+}
+
+[genre="Dramat"] {
+  border-color: var(--dramat);
+  background-color: var(--dramat);
+}
+
+[genre="Biograficzny"] {
+  border-color: var(--biograficzny);
+  background-color: var(--biograficzny);
+}
+
+[genre="Gangsterski"] {
+  border-color: var(--gangsterski);
+  background-color: var(--gangsterski);
+}
+
+[genre="Thriller"] {
+  border-color: var(--thriller);
+  background-color: var(--thriller);
+}
+
+[genre="Western"] {
+  border-color: var(--western);
+  background-color: var(--western);
+}
+
+[genre="Dramat_historyczny"] {
+  border-color: var(--dramat-historyczny);
+  background-color: var(--dramat-historyczny);
+}
+
+[genre="Fantasy"] {
+  border-color: var(--fantasy);
+  background-color: var(--fantasy);
+}
+
+[genre="Kryminał"] {
+  border-color: var(--kryminal);
+  background-color: var(--kryminal);
+}
+
+[genre="Dramat_sądowy"] {
+  border-color: var(--dramat-sadowy);
+  background-color: var(--dramat-sadowy);
+}
+
+[genre="Animacja"] {
+  border-color: var(--animacja);
+  background-color: var(--animacja);
+}
+
+[genre="Akcja"] {
+  border-color: var(--akcja);
+  background-color: var(--akcja);
+}
+
+[genre="Surrealistyczny"] {
+  border-color: var(--surrealistyczny);
+  background-color: var(--surrealistyczny);
+}
+
+header {
+    display: block;
+    width: 90%;
+    border: 5px solid var(--border);
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+    background-color: var(--background-light);
+}
+
+author {
+    display: inline-block;
+    width: 50%;
+    color: var(--text-dark);
+    text-align: center;
+    padding: 5px 0;
+    font-size: 40px;
+}
+
+author:first-child {
+    border-right: 4px dashed var(--border);
+    width: 49%;
+}
+
+fileDescription {
+    display: block;
+    margin-top: 5px;
+    padding: 10px 0;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    border-top: 5px solid var(--border);
+}
+
+genres {
+    display: block;
+    font-family: sans-serif;
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+
+genre {
+  display: inline-block;
+  border: 5px solid var(--border);
+  border-radius: 5px;
+  color: var(--text-dark);
+  box-shadow: 2px 2px 1px grey;
+  padding: 2px;
+  margin: 2px;
+}
+
+genre[genre="Dramat"],
+genre[genre="Kryminał"],
+genre[genre="Gangsterski"],
+genre[genre="Dramat historyczny"]{
+  color: var(--text-light);
+}
+
+movies:before {
+    display: block;
+    width: 95%;
+    border: 5px solid var(--border);
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    font-size: 36px;
+    content: "Lista aktualnie wypożyczonych filmów.";
+}
+
+movies {
+    counter-reset: moviesCounter;
+    display: block;
+    font-family: sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+movies movie {
+    width: 399px;
+    display: inline-block;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    margin: 11px 7px;
+    border: 5px solid var(--border);
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 5px 5px 3px grey;
+    transition: all 0.3s ease-in-out;
+}
+
+movies movie:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 5px grey;
+}
+
+
+movies title {
+    display: block;
+    text-transform: uppercase;
+    background-color: var(--background-dark);
+    text-align: center;
+    padding: 10px;
+    color: var(--text-light);
+    font-size: 18px;
+    font-weight: 700;
+    min-height: 40px;
+}
+
+movies title::before {
+    border-radius: 50%;
+    color: var(--text-dark);
+    background-color: var(--text-light);
+    counter-increment: moviesCounter;
+    display: inline-block;
+    content: counter(moviesCounter);
+    margin-right: 5px;
+    padding: 0 5px;
+}
+
+movies director, movies year {
+    padding: 5px;
+    display: block;
+    background-color: var(--background-med);
+    text-align: center;
+}
+
+rating {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 0px;
+    background-color: var(--background-dark);
+}
+
+description {
+    min-height: 100px;
+    display: block;
+    background-color: var(--background-light);
+    color: var(--text-dark);
+}
+
+price:before {
+    content: "Cena: ";
+    font-weight: 400;
+}
+
+price {
+    display: block;
+    background-color: var(--background-med);
+    font-weight: 700;
+    padding: 3px;
+}
+
+price:after {
+  content: " " attr(class);
+}
+
+borrowsNumber {
+    display: block;
+    background-color: var(--background-dark);
+    padding: 3px;
+}
+
+borrowsNumber:before {
+    content: "Ilość wypożyczeń: ";
+}
+
+borrows:before {
+  display: block;
+  width: 95%;
+  border: 5px solid var(--border);
+  border-radius: 10px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  font-size: 36px;
+  content: "Lista klientów wypożyczających filmy.";
+}
+
+borrows {
+    counter-reset: moviesCounter;
+    display: block;
+    font-family: sans-serif;
+    width: 1280px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+
+borrow {
+    width: 302px;
+    display: inline-block;
+    background-color: var(--background-dark);
+    color: var(--text-light);
+    margin: 5px 2px;
+    margin-top: 24px;
+    border: 5px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px grey;
+}
+
+borrow:hover{
+  margin-top: 5px;
+}
+
+borrow:hover client:after {
+  display: block;
+}
+
+client:after {
+  content: "ID klienta: "attr(id);
+  display: none;
+}
+
+firstname, lastname {
+  display: block;
+  background-color: var(--background-med);
+}
+
+borrowedMovie {
+  display: block;
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  padding: 20px 0;
+}
+
+borrow:hover borrowedMovie:after{
+  display: block;
+}
+
+borrow:hover borrowedMovie {
+  padding: 10px 0;
+}
+
+borrowedMovie:after{
+  display: none;
+  content: "ID filmu: " attr(id);
+  padding-top: 2px;
+}
+
+year:before {
+  content: "(";
+}
+
+borrowDate:before {
+    content: "Data wypożyczania: ";
+    font-weight: 100;
+}
+
+year:after {
+  content: ")";
+}
+
+borrowDate {
+  display: block;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+returnDate:before {
+    content: "Data oddania: ";
+    font-weight: 100;
+}
+
+returnDate {
+  display: block;
+  font-weight: 700;
+}

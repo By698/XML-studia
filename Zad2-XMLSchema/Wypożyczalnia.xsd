@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns:bk="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="movieRental">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="header"/>
+        <xs:element ref="movies"/>
+        <xs:element ref="borrows"/>
+      </xs:sequence>
+    </xs:complexType>
+
+	<xs:unique name="unikalnyNrKlienta">
+	  <xs:selector xpath="./bk:borrows/bk:borrow/bk:client"/>
+	  <xs:field xpath="@id"/>
+	</xs:unique>
+
+	<xs:keyref name="bMovieID" refer="movieID">
+      <xs:selector xpath="./bk:borrows/bk:borrow/bk:borrowedMovie"/>
+      <xs:field xpath="@id"/>
+    </xs:keyref>
+    
+ 	<xs:key name="movieID">
+      <xs:selector xpath="./bk:movies/bk:movie"/>
+      <xs:field xpath="@id"/>
+    </xs:key>
+    
+	
+    
+  </xs:element>
+
+<!--Nagłówek-->
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="authors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="author" type="xs:normalizedString" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="fileDescription" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+<!--Typy danych-->
+  <xs:simpleType name="genreType">
+    <xs:restriction base="xs:normalizedString">
+      <xs:enumeration value="Dramat"/>
+      <xs:enumeration value="Biograficzny"/>
+      <xs:enumeration value="Dramat_sądowy"/>
+      <xs:enumeration value="Fantasy"/>
+      <xs:enumeration value="Gangsterski"/>
+      <xs:enumeration value="Kryminał"/>
+      <xs:enumeration value="Thriller"/>
+      <xs:enumeration value="Surrealistyczny"/>
+      <xs:enumeration value="Western"/>
+      <xs:enumeration value="Animacja"/>
+      <xs:enumeration value="Akcja"/>
+      <xs:enumeration value="Dramat_historyczny"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="currencyType">
+    <xs:restriction base="xs:token">
+      <xs:pattern value="[A-Z]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+    
+  <xs:simpleType name="firstNameType">
+    <xs:restriction base="xs:normalizedString">
+    <xs:maxLength value="10"/>
+    <xs:minLength value="3"/>
+      <xs:pattern value="[A-Z][a-z]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="lastNameType">
+    <xs:restriction base="xs:normalizedString">
+    <xs:maxLength value="20"/>
+    <xs:minLength value="3"/>
+      <xs:pattern value="[A-Z][a-z]+([- | \s][A-Z][a-z]+)?"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="ratingType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+	  <xs:maxInclusive value="10" />
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="priceType">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="0" />
+	  <xs:totalDigits value="4" />
+    </xs:restriction>
+  </xs:simpleType>
+
+	<xs:simpleType name="idTypeClient">
+		<xs:restriction base="xs:normalizedString">
+      		<xs:pattern value = "[c][0-9]{6}" />
+    	</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="idTypeMovie">
+		<xs:restriction base="xs:normalizedString">
+      		<xs:pattern value = "[m][0-9]{4}" />
+    	</xs:restriction>
+	</xs:simpleType>
+ 
+<!--Proste elementy w movies-->
+
+  <xs:element name="title" type="xs:normalizedString"/>
+  <xs:element name="director" type="xs:normalizedString"/>
+  <xs:element name="year" type="xs:gYear"/>
+  <xs:element name="rating" type="ratingType"/>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="borrowsNumber" type="xs:nonNegativeInteger"/>
+
+<xs:group name="movieInfo">
+	<xs:sequence>
+		<xs:element ref="title" />
+		<xs:element ref="director" />
+		<xs:element ref="year" />
+		<xs:element ref="rating" />
+		<xs:element ref="description" />
+	</xs:sequence>
+</xs:group>
+
+<!--Dodatkowe elementy w borrows-->
+  <xs:element name="firstname" type="firstNameType"/>
+  <xs:element name="lastname" type="lastNameType"/>
+  <xs:element name="borrowDate" type="xs:date"/>
+  <xs:element name="returnDate" type="xs:date"/>
+
+<!--Elementy złozone-->
+<xs:element name="price">
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="priceType">
+         <xs:attribute name="currency" type="currencyType"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+  <xs:element name="movie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:group ref="movieInfo"/>
+        <xs:element ref="price"/>
+        <xs:element ref="borrowsNumber"/>
+      </xs:sequence>
+      <xs:attribute name="genre" type="genreType"/>
+      <xs:attribute name="id" type="idTypeMovie" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="client">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="firstname"/>
+        <xs:element ref="lastname"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="idTypeClient" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="borrowedMovie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="year"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="idTypeMovie" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="borrow">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="client"/>
+        <xs:element ref="borrowedMovie"/>
+        <xs:element ref="borrowDate" />
+        <xs:element ref="returnDate" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="borrows">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="borrow" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="movies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="movie" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

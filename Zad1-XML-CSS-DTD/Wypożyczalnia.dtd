@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT movieRental (header,genres, movies, borrows)>
+
+	<!ELEMENT header (authors, fileDescription)>
+		<!ELEMENT authors (author+)>
+			<!ELEMENT author (#PCDATA)>
+		<!ELEMENT fileDescription (#PCDATA)>
+
+	<!ELEMENT genres (genre+)>
+		<!ELEMENT genre (#PCDATA)>
+		<!ATTLIST genre genre NMTOKENS #REQUIRED>
+	
+	<!ELEMENT movies (movie+)>
+		<!ELEMENT movie (title,director?,year,rating?,description?,price?,borrowsNumber?)>
+		<!ATTLIST movie genre 
+		(Dramat|Biograficzny|Dramat_sądowy|Fantasy
+		|Gangsterski|Kryminał|Thriller|Surrealistyczny
+ 		|Western|Animacja|Akcja|Dramat_historyczny|Brak_kategorii) "Brak_kategorii">
+		<!ATTLIST movie id ID #REQUIRED>
+			<!ELEMENT title (#PCDATA)>
+			<!ELEMENT director (#PCDATA)>
+			<!ELEMENT year (#PCDATA)>
+			<!ELEMENT rating (#PCDATA)>
+			<!ELEMENT description (#PCDATA)>
+			<!ELEMENT price (#PCDATA)>
+				<!ATTLIST price class NMTOKEN #REQUIRED>
+			<!ELEMENT borrowsNumber (#PCDATA)>
+			
+	<!ELEMENT borrows (borrow+)>
+		<!ELEMENT borrow (client, borrowedMovie, borrowDate, returnDate)>
+			<!ELEMENT client (firstname, lastname)>
+				<!ATTLIST client id ID #REQUIRED>
+				<!ELEMENT firstname (#PCDATA)>
+				<!ELEMENT lastname (#PCDATA)> 
+			<!ELEMENT borrowedMovie (title,year)> 
+			<!ATTLIST borrowedMovie id IDREF #IMPLIED>
+			<!ELEMENT borrowDate (#PCDATA)>
+			<!ELEMENT returnDate (#PCDATA)>
+			

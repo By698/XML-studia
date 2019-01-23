@@ -1,0 +1,710 @@
+<movieRental>
+   <header>
+      <authors>
+         <author>Damian Byszewski</author>
+         <author>Bartosz Krukowski</author>
+      </authors>
+      <fileDescription>Wypożyczalnia filmów stworzona na potrzeby projektu z przedmiotu "Technologie XML".</fileDescription>
+      <statistics>
+         <reportDate>
+            <date>2018-12-04Z</date>
+            <time>12:39:24.897Z</time>
+         </reportDate>
+         <numberOfMovies>30</numberOfMovies>
+         <numberOfClients>55</numberOfClients>
+         <numberOfDramas>15</numberOfDramas>
+      </statistics>
+   </header>
+   <movies>
+      <movie>
+         <title>Skazani na Shawshank (1994)</title>
+         <genre>Dramat</genre>
+         <director>Frank Darabont</director>
+         <rating>8.75</rating>
+         <description>Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie.</description>
+         <price>11.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>35.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c698424</clientID>
+               <clientName>Grisel Bailey</clientName>
+               <borrowDate>2018-10-18</borrowDate>
+               <returnDate>2018-11-01</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c820353</clientID>
+               <clientName>Ron Hayes</clientName>
+               <borrowDate>2018-10-13</borrowDate>
+               <returnDate>2018-10-27</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c267045</clientID>
+               <clientName>Kermit Barrows</clientName>
+               <borrowDate>2018-10-14</borrowDate>
+               <returnDate>2018-10-28</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Nietykalni (2011)</title>
+         <genre>Biograficzny</genre>
+         <director>Olivier Nakache</director>
+         <rating>8.64</rating>
+         <description>Sparaliżowany milioner zatrudnia do opieki młodego chłopaka z przedmieścia, który właśnie wyszedł z więzienia.</description>
+         <price>16.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>16.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c593244</clientID>
+               <clientName>Nakita Morar</clientName>
+               <borrowDate>2018-10-19</borrowDate>
+               <returnDate>2018-11-02</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Zielona mila (1999)</title>
+         <genre>Dramat</genre>
+         <director>Frank Darabont</director>
+         <rating>8.61</rating>
+         <description>Emerytowany strażnik więzienny opowiada przyjaciółce o niezwykłym mężczyźnie, którego skazano na śmierć za zabójstwo dwóch 9-letnich dziewczynek.</description>
+         <price>5.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>5.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c852501</clientID>
+               <clientName>Yulanda Jaskolski</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Ojciec chrzestny (1972)</title>
+         <genre>Dramat</genre>
+         <director>Francis Ford Coppola</director>
+         <rating>8.59</rating>
+         <description>Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi.</description>
+         <price>12.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>12.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c928416</clientID>
+               <clientName>Ismael Goodwin</clientName>
+               <borrowDate>2018-10-20</borrowDate>
+               <returnDate>2018-11-03</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Dwunastu gniewnych ludzi (1957)</title>
+         <genre>Dramat_sądowy</genre>
+         <director>Sidney Lumet</director>
+         <rating>8.53</rating>
+         <description>Dwunastu przysięgłych ma wydać wyrok w procesie o morderstwo. Jeden z nich ma wątpliwości dotyczące winy oskarżonego.</description>
+         <price>12.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>12.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c830709</clientID>
+               <clientName>Kanisha Orn</clientName>
+               <borrowDate>2018-10-12</borrowDate>
+               <returnDate>2018-10-26</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Forrest Gump (1994)</title>
+         <genre>Dramat</genre>
+         <director>Robert Zemeckis</director>
+         <rating>8.52</rating>
+         <description>Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie.</description>
+         <price>18.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>37.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c119747</clientID>
+               <clientName>Sondra Upton</clientName>
+               <borrowDate>2018-10-19</borrowDate>
+               <returnDate>2018-11-02</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c537503</clientID>
+               <clientName>Aldo Moore</clientName>
+               <borrowDate>2018-10-20</borrowDate>
+               <returnDate>2018-11-03</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Lot nad kukułczym gniazdem (1975)</title>
+         <genre>Dramat</genre>
+         <director>Miloš Forman</director>
+         <rating>8.45</rating>
+         <description>Historia złodzieja, szulera i chuligana, który, by uniknąć więzienia, udaje niepoczytalność. Trafia do szpitala dla umysłowo chorych, gdzie twardą ręką rządzi siostra Ratched.</description>
+         <price>7.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>23.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c833929</clientID>
+               <clientName>Reda Herman</clientName>
+               <borrowDate>2018-10-16</borrowDate>
+               <returnDate>2018-10-30</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c873512</clientID>
+               <clientName>David Little</clientName>
+               <borrowDate>2018-10-21</borrowDate>
+               <returnDate>2018-11-04</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c804885</clientID>
+               <clientName>Forest Kuphal</clientName>
+               <borrowDate>2018-10-11</borrowDate>
+               <returnDate>2018-10-25</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Ojciec chrzestny II (1974)</title>
+         <genre>Dramat</genre>
+         <director>Francis Ford Coppola</director>
+         <rating>8.39</rating>
+         <description>Rok 1917. Młody Vito Corleone stawia pierwsze kroki w mafijnym świecie Nowego Jorku. Ponad 40 lat później jego syn Michael walczy o interesy i dobro rodziny.</description>
+         <price>9.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>29.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c827205</clientID>
+               <clientName>Tatyana Stracke</clientName>
+               <borrowDate>2018-10-19</borrowDate>
+               <returnDate>2018-11-02</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c872617</clientID>
+               <clientName>Katharina Sanford</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c161536</clientID>
+               <clientName>Carmine Willms</clientName>
+               <borrowDate>2018-10-14</borrowDate>
+               <returnDate>2018-10-28</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Lista Schindlera (1993)</title>
+         <genre>Dramat</genre>
+         <director>Steven Spielberg</director>
+         <rating>8.33</rating>
+         <description>Historia przedsiębiorcy Oskara Schindlera, który podczas II wojny światowej uratował przed pobytem w obozach koncentracyjnych 1100 Żydów.</description>
+         <price>9.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>9.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c196484</clientID>
+               <clientName>Vernita Langosh</clientName>
+               <borrowDate>2018-10-20</borrowDate>
+               <returnDate>2018-11-03</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Władca Pierścieni: Powrót króla (2003)</title>
+         <genre>Fantasy</genre>
+         <director>Peter Jackson</director>
+         <rating>8.33</rating>
+         <description>Zwieńczenie filmowej trylogii wg powieści Tolkiena. Aragorn jednoczy siły Śródziemia, szykując się do bitwy, która ma odwrócić uwagę Saurona od podążających w kierunku Góry Przeznaczenia hobbitów.</description>
+         <price>18.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>37.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c293337</clientID>
+               <clientName>Sharri Witting</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c611529</clientID>
+               <clientName>Levi Jones</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Pulp Fiction (1994)</title>
+         <genre>Gangsterski</genre>
+         <director>Quentin Tarantino</director>
+         <rating>8.32</rating>
+         <description>Przemoc i odkupienie w opowieści o dwóch płatnych mordercach pracujących na zlecenie mafii, żonie gangstera, bokserze i parze okradającej ludzi w restauracji.</description>
+         <price>9.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>19.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c991967</clientID>
+               <clientName>Devin Bailey</clientName>
+               <borrowDate>2018-10-12</borrowDate>
+               <returnDate>2018-10-26</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c347272</clientID>
+               <clientName>Eneida Cassin</clientName>
+               <borrowDate>2018-10-14</borrowDate>
+               <returnDate>2018-10-28</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Życie jest piękne (1997)</title>
+         <genre>Dramat</genre>
+         <director>Roberto Benigni</director>
+         <rating>8.29</rating>
+         <description>Zamknięty w obozie koncentracyjnym wraz z synem Guido próbuje przekonać chłopca, że okrutna rzeczywistość jest jedynie formą zabawy dla dorosłych.</description>
+         <price>8.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>17.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c656712</clientID>
+               <clientName>Wen Jast</clientName>
+               <borrowDate>2018-10-12</borrowDate>
+               <returnDate>2018-10-26</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c841546</clientID>
+               <clientName>Romelia Prohaska</clientName>
+               <borrowDate>2018-10-13</borrowDate>
+               <returnDate>2018-10-27</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Siedem (1995)</title>
+         <genre>Kryminał</genre>
+         <director>David Fincher</director>
+         <rating>8.27</rating>
+         <description>Dwóch policjantów stara się złapać seryjnego mordercę wybierającego swoje ofiary wg specjalnego "klucza".</description>
+         <price>15.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>15.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c668259</clientID>
+               <clientName>Tayna Schimmel</clientName>
+               <borrowDate>2018-10-21</borrowDate>
+               <returnDate>2018-11-04</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Podziemny krąg (1999)</title>
+         <genre>Thriller</genre>
+         <director>David Fincher</director>
+         <rating>8.26</rating>
+         <description>Dwóch mężczyzn znudzonych rutyną zakłada klub, w którym co tydzień odbywają się walki na gołe pięści.</description>
+         <price>18.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>37.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c653366</clientID>
+               <clientName>Cecily Block</clientName>
+               <borrowDate>2018-10-15</borrowDate>
+               <returnDate>2018-10-29</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c215087</clientID>
+               <clientName>Larhonda Armstrong</clientName>
+               <borrowDate>2018-10-10</borrowDate>
+               <returnDate>2018-10-24</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Władca Pierścieni: Dwie wieże (2002)</title>
+         <genre>Fantasy</genre>
+         <director>Peter Jackson</director>
+         <rating>8.26</rating>
+         <description>Drużyna Pierścienia zostaje rozbita, lecz zdesperowany Frodo za wszelką cenę chce wypełnić powierzone mu zadanie. Aragorn z towarzyszami przygotowuje się, by odeprzeć atak hord Sarumana.</description>
+         <price>12.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>38.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c607767</clientID>
+               <clientName>Frank Wiza</clientName>
+               <borrowDate>2018-10-21</borrowDate>
+               <returnDate>2018-11-04</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c591707</clientID>
+               <clientName>Suzann Berge</clientName>
+               <borrowDate>2018-10-20</borrowDate>
+               <returnDate>2018-11-03</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c953952</clientID>
+               <clientName>Maryetta Pollich</clientName>
+               <borrowDate>2018-10-18</borrowDate>
+               <returnDate>2018-11-01</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Chłopcy z ferajny (1990)</title>
+         <genre>Dramat</genre>
+         <director>Martin Scorsese</director>
+         <rating>8.24</rating>
+         <description>Kilkunastoletni Henry i Tommy DeVito trafiają pod opiekę potężnego gangstera. Obaj szybko uczą się panujących w mafii reguł.</description>
+         <price>17.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>35.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c437019</clientID>
+               <clientName>Consuelo Harvey</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c105521</clientID>
+               <clientName>Aron Feeney</clientName>
+               <borrowDate>2018-10-21</borrowDate>
+               <returnDate>2018-11-04</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Piękny umysł (2001)</title>
+         <genre>Biograficzny</genre>
+         <director>Ron Howard</director>
+         <rating>8.24</rating>
+         <description>Geniusz matematyczny John Nash za wszelką cenę pragnie opracować teorię, dzięki której zostanie cenionym naukowcem. Przeszkodą staje się jego stopniowo rozwijająca choroba.</description>
+         <price>11.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>23.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c589268</clientID>
+               <clientName>Johnathon Stamm</clientName>
+               <borrowDate>2018-10-15</borrowDate>
+               <returnDate>2018-10-29</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c593571</clientID>
+               <clientName>Romana Wyman</clientName>
+               <borrowDate>2018-10-10</borrowDate>
+               <returnDate>2018-10-24</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Incepcja (2010)</title>
+         <genre>Surrealistyczny</genre>
+         <director>Christopher Nolan</director>
+         <rating>8.23</rating>
+         <description>Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu.</description>
+         <price>6.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>20.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c399025</clientID>
+               <clientName>Gerry Lindgren</clientName>
+               <borrowDate>2018-10-09</borrowDate>
+               <returnDate>2018-10-23</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c979700</clientID>
+               <clientName>Willia Kilback</clientName>
+               <borrowDate>2018-10-14</borrowDate>
+               <returnDate>2018-10-28</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c430666</clientID>
+               <clientName>Joella Padberg</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Pianista (2002)</title>
+         <genre>Biograficzny</genre>
+         <director>Roman Polański</director>
+         <rating>8.23</rating>
+         <description>Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie.</description>
+         <price>10.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>32.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c864027</clientID>
+               <clientName>Jimmy Rosenbaum</clientName>
+               <borrowDate>2018-10-09</borrowDate>
+               <returnDate>2018-10-23</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c300903</clientID>
+               <clientName>Homer Wolff</clientName>
+               <borrowDate>2018-10-09</borrowDate>
+               <returnDate>2018-10-23</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c135191</clientID>
+               <clientName>Jamal Kreiger</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Django (2012)</title>
+         <genre>Western</genre>
+         <director>Quentin Tarantino</director>
+         <rating>8.21</rating>
+         <description>Łowca nagród Schultz i czarnoskóry niewolnik Django wyruszają w podróż, aby odbić żonę tego drugiego z rąk bezlitosnego Calvina Candie'ego.</description>
+         <price>14.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>14.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c340456</clientID>
+               <clientName>Jose Howe</clientName>
+               <borrowDate>2018-10-11</borrowDate>
+               <returnDate>2018-10-25</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Milczenie owiec (1991)</title>
+         <genre>Thriller</genre>
+         <director>Jonathan Demme</director>
+         <rating>8.21</rating>
+         <description>Seryjny morderca i inteligentna agentka łączą siły, by znaleźć przestępcę obdzierającego ze skóry swoje ofiary.</description>
+         <price>17.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>17.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c510267</clientID>
+               <clientName>Douglas Waelchi</clientName>
+               <borrowDate>2018-10-12</borrowDate>
+               <returnDate>2018-10-26</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Człowiek z blizną (1983)</title>
+         <genre>Dramat</genre>
+         <director>Brian De Palma</director>
+         <rating>8.2</rating>
+         <description>Kubański emigrant Tony Montana opuszcza ojczyznę i przybywa do Miami. Razem z przyjacielem, Mannym Riberą, zaczyna pracować dla mafii narkotykowej.</description>
+         <price>11.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>11.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c991510</clientID>
+               <clientName>Raphael Wiza</clientName>
+               <borrowDate>2018-10-14</borrowDate>
+               <returnDate>2018-10-28</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Król Lew (1994)</title>
+         <genre>Animacja</genre>
+         <director>Rob Minkoff</director>
+         <rating>8.2</rating>
+         <description>Targany niesłusznymi wyrzutami sumienia po śmierci ojca mały lew Simba skazuje się na wygnanie, rezygnując z przynależnego mu miejsca na czele stada.</description>
+         <price>4.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>9.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c580447</clientID>
+               <clientName>Teddy Krajcik</clientName>
+               <borrowDate>2018-10-13</borrowDate>
+               <returnDate>2018-10-27</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c593049</clientID>
+               <clientName>Toni Hagenes</clientName>
+               <borrowDate>2018-10-17</borrowDate>
+               <returnDate>2018-10-31</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Gran Torino (2008)</title>
+         <genre>Dramat</genre>
+         <director>Clint Eastwood</director>
+         <rating>8.17</rating>
+         <description>Walt Kowalski to emerytowany weteran żyjący we własnym poukładanym świecie. Jego spokój zostaje zburzony przez nowych sąsiadów z Azji, których syn spróbuje ukraść mu ulubione auto.</description>
+         <price>8.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>26.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c316183</clientID>
+               <clientName>Willena Zboncak</clientName>
+               <borrowDate>2018-10-13</borrowDate>
+               <returnDate>2018-10-27</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c240779</clientID>
+               <clientName>Malik Streich</clientName>
+               <borrowDate>2018-10-11</borrowDate>
+               <returnDate>2018-10-25</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c185514</clientID>
+               <clientName>Santana Herzog</clientName>
+               <borrowDate>2018-10-17</borrowDate>
+               <returnDate>2018-10-31</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Wyspa tajemnic (2010)</title>
+         <genre>Dramat</genre>
+         <director>Martin Scorsese</director>
+         <rating>8.15</rating>
+         <description>Szeryf federalny Daniels stara się dowiedzieć, jakim sposobem z zamkniętej celi w pilnie strzeżonym szpitalu dla chorych psychicznie przestępców zniknęła pacjentka.</description>
+         <price>18.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>18.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c193328</clientID>
+               <clientName>Frankie Halvorson</clientName>
+               <borrowDate>2018-10-11</borrowDate>
+               <returnDate>2018-10-25</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Więzień nienawiści (1998)</title>
+         <genre>Dramat</genre>
+         <director>Tony Kaye</director>
+         <rating>8.14</rating>
+         <description>Były neonazista po wyjściu z więzienia stara się przekonać młodszego brata, by nie podążał jego śladem.</description>
+         <price>16.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>16.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c258819</clientID>
+               <clientName>Dave Paucek</clientName>
+               <borrowDate>2018-10-19</borrowDate>
+               <returnDate>2018-11-02</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Avengers: Wojna bez granic (2018)</title>
+         <genre>Akcja</genre>
+         <director>Anthony Russo</director>
+         <rating>8.12</rating>
+         <description>Potężny Thanos zbiera Kamienie Nieskończoności w celu narzucenia swojej woli wszystkim istnieniom we wszechświecie. Tylko drużyna superbohaterów znanych jako Avengers może go powstrzymać.</description>
+         <price>5.99 PLN</price>
+         <borrowsNumber>2</borrowsNumber>
+         <profit>11.98 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c767916</clientID>
+               <clientName>Rod Hickle</clientName>
+               <borrowDate>2018-10-09</borrowDate>
+               <returnDate>2018-10-23</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c556433</clientID>
+               <clientName>Jade Larkin</clientName>
+               <borrowDate>2018-10-11</borrowDate>
+               <returnDate>2018-10-25</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Leon zawodowiec (1994)</title>
+         <genre>Dramat</genre>
+         <director>Luc Besson</director>
+         <rating>8.11</rating>
+         <description>Płatny morderca ratuje dwunastoletnią dziewczynkę, której rodzina została zabita przez skorumpowanych policjantów.</description>
+         <price>7.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>7.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c285503</clientID>
+               <clientName>Shavonne Marks</clientName>
+               <borrowDate>2018-10-09</borrowDate>
+               <returnDate>2018-10-23</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Chłopiec w pasiastej piżamie (2008)</title>
+         <genre>Dramat</genre>
+         <director>Mark Herman</director>
+         <rating>8.09</rating>
+         <description>Ośmioletni syn niemieckiego oficera SS zaprzyjaźnia się z żydowskim chłopcem przebywającym w obozie.</description>
+         <price>5.99 PLN</price>
+         <borrowsNumber>1</borrowsNumber>
+         <profit>5.99 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c182592</clientID>
+               <clientName>Bill Senger</clientName>
+               <borrowDate>2018-10-17</borrowDate>
+               <returnDate>2018-10-31</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+      <movie>
+         <title>Gladiator (2000)</title>
+         <genre>Dramat_historyczny</genre>
+         <director>Ridley Scott</director>
+         <rating>8.08</rating>
+         <description>Generał Maximus - prawa ręka cesarza, szczęśliwy mąż i ojciec - w jednej chwili traci wszystko. Jako niewolnik-gladiator musi walczyć na arenie o przeżycie.</description>
+         <price>18.99 PLN</price>
+         <borrowsNumber>3</borrowsNumber>
+         <profit>56.97 PLN</profit>
+         <borrows>
+            <borrow>
+               <clientID>c230455</clientID>
+               <clientName>Ronald Bernier</clientName>
+               <borrowDate>2018-10-08</borrowDate>
+               <returnDate>2018-10-22</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c156542</clientID>
+               <clientName>Carlena Roberts</clientName>
+               <borrowDate>2018-10-20</borrowDate>
+               <returnDate>2018-11-03</returnDate>
+            </borrow>
+            <borrow>
+               <clientID>c292238</clientID>
+               <clientName>Dale Rippin</clientName>
+               <borrowDate>2018-10-18</borrowDate>
+               <returnDate>2018-11-01</returnDate>
+            </borrow>
+         </borrows>
+      </movie>
+   </movies>
+</movieRental>

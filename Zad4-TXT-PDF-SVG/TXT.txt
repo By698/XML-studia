@@ -1,0 +1,450 @@
+
+            Autorzy dokumentu:
+        
+    - Damian Byszewski
+    - Bartosz Krukowski
+    
+            Opis dokumentu:
+        
+    Wypo¿yczalnia filmów stworzona na potrzeby projektu z przedmiotu "Technologie XML".
+    
+    
+    ___________________________________________________________
+    
+            Lista filmów:
+        
+    Dramat - Skazani na Shawshank (1994)
+    Re¿yser: Frank Darabont
+    Ocena: 8.75
+    Cena: 11.99 PLN
+    Adaptacja opowiadania Stephena Kinga. Nies³usznie skazany na do¿ywocie bankier, stara siê przetrwaæ...
+    
+                Lista wypo¿yczeñ:
+            
+    c698424 | Grisel Bailey: 18/10/2018 - 01/11/2018
+    
+    c820353 | Ron Hayes: 13/10/2018 - 27/10/2018
+    
+    c267045 | Kermit Barrows: 14/10/2018 - 28/10/2018
+    
+    
+    ***********************************************************
+    Biograficzny - Nietykalni (2011)
+    Re¿yser: Olivier Nakache
+    Ocena: 8.64
+    Cena: 16.99 PLN
+    Sparali¿owany milioner zatrudnia do opieki m³odego ch³opaka z przedmieœcia, który w³aœnie wyszed³ z...
+    
+                Lista wypo¿yczeñ:
+            
+    c593244 | Nakita Morar: 19/10/2018 - 02/11/2018
+    
+    
+    ***********************************************************
+    Dramat - Zielona mila (1999)
+    Re¿yser: Frank Darabont
+    Ocena: 8.61
+    Cena: 5.99 PLN
+    Emerytowany stra¿nik wiêzienny opowiada przyjació³ce o niezwyk³ym mê¿czyŸnie, którego skazano na œm...
+    
+                Lista wypo¿yczeñ:
+            
+    c852501 | Yulanda Jaskolski: 08/10/2018 - 22/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Ojciec chrzestny (1972)
+    Re¿yser: Francis Ford Coppola
+    Ocena: 8.59
+    Cena: 12.99 PLN
+    Opowieœæ o nowojorskiej rodzinie mafijnej. Starzej¹cy siê Don Corleone pragnie przekazaæ w³adzê swo...
+    
+                Lista wypo¿yczeñ:
+            
+    c928416 | Ismael Goodwin: 20/10/2018 - 03/11/2018
+    
+    
+    ***********************************************************
+    Dramat_s¹dowy - Dwunastu gniewnych ludzi (1957)
+    Re¿yser: Sidney Lumet
+    Ocena: 8.53
+    Cena: 12.99 PLN
+    Dwunastu przysiêg³ych ma wydaæ wyrok w procesie o morderstwo. Jeden z nich ma w¹tpliwoœci dotycz¹ce...
+    
+                Lista wypo¿yczeñ:
+            
+    c830709 | Kanisha Orn: 12/10/2018 - 26/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Forrest Gump (1994)
+    Re¿yser: Robert Zemeckis
+    Ocena: 8.52
+    Cena: 18.99 PLN
+    Historia ¿ycia Forresta, ch³opca o niskim ilorazie inteligencji z niedow³adem koñczyn, który staje ...
+    
+                Lista wypo¿yczeñ:
+            
+    c119747 | Sondra Upton: 19/10/2018 - 02/11/2018
+    
+    c537503 | Aldo Moore: 20/10/2018 - 03/11/2018
+    
+    
+    ***********************************************************
+    Dramat - Lot nad kuku³czym gniazdem (1975)
+    Re¿yser: Miloš Forman
+    Ocena: 8.45
+    Cena: 7.99 PLN
+    Historia z³odzieja, szulera i chuligana, który, by unikn¹æ wiêzienia, udaje niepoczytalnoœæ. Trafia...
+    
+                Lista wypo¿yczeñ:
+            
+    c833929 | Reda Herman: 16/10/2018 - 30/10/2018
+    
+    c873512 | David Little: 21/10/2018 - 04/11/2018
+    
+    c804885 | Forest Kuphal: 11/10/2018 - 25/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Ojciec chrzestny II (1974)
+    Re¿yser: Francis Ford Coppola
+    Ocena: 8.39
+    Cena: 9.99 PLN
+    Rok 1917. M³ody Vito Corleone stawia pierwsze kroki w mafijnym œwiecie Nowego Jorku. Ponad 40 lat p...
+    
+                Lista wypo¿yczeñ:
+            
+    c827205 | Tatyana Stracke: 19/10/2018 - 02/11/2018
+    
+    c872617 | Katharina Sanford: 08/10/2018 - 22/10/2018
+    
+    c161536 | Carmine Willms: 14/10/2018 - 28/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Lista Schindlera (1993)
+    Re¿yser: Steven Spielberg
+    Ocena: 8.33
+    Cena: 9.99 PLN
+    Historia przedsiêbiorcy Oskara Schindlera, który podczas II wojny œwiatowej uratowa³ przed pobytem ...
+    
+                Lista wypo¿yczeñ:
+            
+    c196484 | Vernita Langosh: 20/10/2018 - 03/11/2018
+    
+    
+    ***********************************************************
+    Fantasy - W³adca Pierœcieni: Powrót króla (2003)
+    Re¿yser: Peter Jackson
+    Ocena: 8.33
+    Cena: 18.99 PLN
+    Zwieñczenie filmowej trylogii wg powieœci Tolkiena. Aragorn jednoczy si³y Œródziemia, szykuj¹c siê ...
+    
+                Lista wypo¿yczeñ:
+            
+    c293337 | Sharri Witting: 08/10/2018 - 22/10/2018
+    
+    c611529 | Levi Jones: 08/10/2018 - 22/10/2018
+    
+    
+    ***********************************************************
+    Gangsterski - Pulp Fiction (1994)
+    Re¿yser: Quentin Tarantino
+    Ocena: 8.32
+    Cena: 9.99 PLN
+    Przemoc i odkupienie w opowieœci o dwóch p³atnych mordercach pracuj¹cych na zlecenie mafii, ¿onie g...
+    
+                Lista wypo¿yczeñ:
+            
+    c991967 | Devin Bailey: 12/10/2018 - 26/10/2018
+    
+    c347272 | Eneida Cassin: 14/10/2018 - 28/10/2018
+    
+    
+    ***********************************************************
+    Dramat - ¯ycie jest piêkne (1997)
+    Re¿yser: Roberto Benigni
+    Ocena: 8.29
+    Cena: 8.99 PLN
+    Zamkniêty w obozie koncentracyjnym wraz z synem Guido próbuje przekonaæ ch³opca, ¿e okrutna rzeczyw...
+    
+                Lista wypo¿yczeñ:
+            
+    c656712 | Wen Jast: 12/10/2018 - 26/10/2018
+    
+    c841546 | Romelia Prohaska: 13/10/2018 - 27/10/2018
+    
+    
+    ***********************************************************
+    Krymina³ - Siedem (1995)
+    Re¿yser: David Fincher
+    Ocena: 8.27
+    Cena: 15.99 PLN
+    Dwóch policjantów stara siê z³apaæ seryjnego mordercê wybieraj¹cego swoje ofiary wg specjalnego "kl...
+    
+                Lista wypo¿yczeñ:
+            
+    c668259 | Tayna Schimmel: 21/10/2018 - 04/11/2018
+    
+    
+    ***********************************************************
+    Thriller - Podziemny kr¹g (1999)
+    Re¿yser: David Fincher
+    Ocena: 8.26
+    Cena: 18.99 PLN
+    Dwóch mê¿czyzn znudzonych rutyn¹ zak³ada klub, w którym co tydzieñ odbywaj¹ siê walki na go³e piêœc...
+    
+                Lista wypo¿yczeñ:
+            
+    c653366 | Cecily Block: 15/10/2018 - 29/10/2018
+    
+    c215087 | Larhonda Armstrong: 10/10/2018 - 24/10/2018
+    
+    
+    ***********************************************************
+    Fantasy - W³adca Pierœcieni: Dwie wie¿e (2002)
+    Re¿yser: Peter Jackson
+    Ocena: 8.26
+    Cena: 12.99 PLN
+    Dru¿yna Pierœcienia zostaje rozbita, lecz zdesperowany Frodo za wszelk¹ cenê chce wype³niæ powierzo...
+    
+                Lista wypo¿yczeñ:
+            
+    c607767 | Frank Wiza: 21/10/2018 - 04/11/2018
+    
+    c591707 | Suzann Berge: 20/10/2018 - 03/11/2018
+    
+    c953952 | Maryetta Pollich: 18/10/2018 - 01/11/2018
+    
+    
+    ***********************************************************
+    Dramat - Ch³opcy z ferajny (1990)
+    Re¿yser: Martin Scorsese
+    Ocena: 8.24
+    Cena: 17.99 PLN
+    Kilkunastoletni Henry i Tommy DeVito trafiaj¹ pod opiekê potê¿nego gangstera. Obaj szybko ucz¹ siê ...
+    
+                Lista wypo¿yczeñ:
+            
+    c437019 | Consuelo Harvey: 08/10/2018 - 22/10/2018
+    
+    c105521 | Aron Feeney: 21/10/2018 - 04/11/2018
+    
+    
+    ***********************************************************
+    Biograficzny - Piêkny umys³ (2001)
+    Re¿yser: Ron Howard
+    Ocena: 8.24
+    Cena: 11.99 PLN
+    Geniusz matematyczny John Nash za wszelk¹ cenê pragnie opracowaæ teoriê, dziêki której zostanie cen...
+    
+                Lista wypo¿yczeñ:
+            
+    c589268 | Johnathon Stamm: 15/10/2018 - 29/10/2018
+    
+    c593571 | Romana Wyman: 10/10/2018 - 24/10/2018
+    
+    
+    ***********************************************************
+    Surrealistyczny - Incepcja (2010)
+    Re¿yser: Christopher Nolan
+    Ocena: 8.23
+    Cena: 6.99 PLN
+    Czasy, gdy technologia pozwala na wchodzenie w œwiat snów. Z³odziej Cobb ma za zadanie wszczepiæ my...
+    
+                Lista wypo¿yczeñ:
+            
+    c399025 | Gerry Lindgren: 09/10/2018 - 23/10/2018
+    
+    c979700 | Willia Kilback: 14/10/2018 - 28/10/2018
+    
+    c430666 | Joella Padberg: 08/10/2018 - 22/10/2018
+    
+    
+    ***********************************************************
+    Biograficzny - Pianista (2002)
+    Re¿yser: Roman Polañski
+    Ocena: 8.23
+    Cena: 10.99 PLN
+    Podczas drugiej wojny œwiatowej W³adys³aw Szpilman, znakomity polski pianista, stara siê prze¿yæ w ...
+    
+                Lista wypo¿yczeñ:
+            
+    c864027 | Jimmy Rosenbaum: 09/10/2018 - 23/10/2018
+    
+    c300903 | Homer Wolff: 09/10/2018 - 23/10/2018
+    
+    c135191 | Jamal Kreiger: 08/10/2018 - 22/10/2018
+    
+    
+    ***********************************************************
+    Western - Django (2012)
+    Re¿yser: Quentin Tarantino
+    Ocena: 8.21
+    Cena: 14.99 PLN
+    £owca nagród Schultz i czarnoskóry niewolnik Django wyruszaj¹ w podró¿, aby odbiæ ¿onê tego drugieg...
+    
+                Lista wypo¿yczeñ:
+            
+    c340456 | Jose Howe: 11/10/2018 - 25/10/2018
+    
+    
+    ***********************************************************
+    Thriller - Milczenie owiec (1991)
+    Re¿yser: Jonathan Demme
+    Ocena: 8.21
+    Cena: 17.99 PLN
+    Seryjny morderca i inteligentna agentka ³¹cz¹ si³y, by znaleŸæ przestêpcê obdzieraj¹cego ze skóry s...
+    
+                Lista wypo¿yczeñ:
+            
+    c510267 | Douglas Waelchi: 12/10/2018 - 26/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Cz³owiek z blizn¹ (1983)
+    Re¿yser: Brian De Palma
+    Ocena: 8.2
+    Cena: 11.99 PLN
+    Kubañski emigrant Tony Montana opuszcza ojczyznê i przybywa do Miami. Razem z przyjacielem, Mannym ...
+    
+                Lista wypo¿yczeñ:
+            
+    c991510 | Raphael Wiza: 14/10/2018 - 28/10/2018
+    
+    
+    ***********************************************************
+    Animacja - Król Lew (1994)
+    Re¿yser: Rob Minkoff
+    Ocena: 8.2
+    Cena: 4.99 PLN
+    Targany nies³usznymi wyrzutami sumienia po œmierci ojca ma³y lew Simba skazuje siê na wygnanie, rez...
+    
+                Lista wypo¿yczeñ:
+            
+    c580447 | Teddy Krajcik: 13/10/2018 - 27/10/2018
+    
+    c593049 | Toni Hagenes: 17/10/2018 - 31/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Gran Torino (2008)
+    Re¿yser: Clint Eastwood
+    Ocena: 8.17
+    Cena: 8.99 PLN
+    Walt Kowalski to emerytowany weteran ¿yj¹cy we w³asnym pouk³adanym œwiecie. Jego spokój zostaje zbu...
+    
+                Lista wypo¿yczeñ:
+            
+    c316183 | Willena Zboncak: 13/10/2018 - 27/10/2018
+    
+    c240779 | Malik Streich: 11/10/2018 - 25/10/2018
+    
+    c185514 | Santana Herzog: 17/10/2018 - 31/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Wyspa tajemnic (2010)
+    Re¿yser: Martin Scorsese
+    Ocena: 8.15
+    Cena: 18.99 PLN
+    Szeryf federalny Daniels stara siê dowiedzieæ, jakim sposobem z zamkniêtej celi w pilnie strze¿onym...
+    
+                Lista wypo¿yczeñ:
+            
+    c193328 | Frankie Halvorson: 11/10/2018 - 25/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Wiêzieñ nienawiœci (1998)
+    Re¿yser: Tony Kaye
+    Ocena: 8.14
+    Cena: 16.99 PLN
+    By³y neonazista po wyjœciu z wiêzienia stara siê przekonaæ m³odszego brata, by nie pod¹¿a³ jego œla...
+    
+                Lista wypo¿yczeñ:
+            
+    c258819 | Dave Paucek: 19/10/2018 - 02/11/2018
+    
+    
+    ***********************************************************
+    Akcja - Avengers: Wojna bez granic (2018)
+    Re¿yser: Anthony Russo
+    Ocena: 8.12
+    Cena: 5.99 PLN
+    Potê¿ny Thanos zbiera Kamienie Nieskoñczonoœci w celu narzucenia swojej woli wszystkim istnieniom w...
+    
+                Lista wypo¿yczeñ:
+            
+    c767916 | Rod Hickle: 09/10/2018 - 23/10/2018
+    
+    c556433 | Jade Larkin: 11/10/2018 - 25/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Leon zawodowiec (1994)
+    Re¿yser: Luc Besson
+    Ocena: 8.11
+    Cena: 7.99 PLN
+    P³atny morderca ratuje dwunastoletni¹ dziewczynkê, której rodzina zosta³a zabita przez skorumpowany...
+    
+                Lista wypo¿yczeñ:
+            
+    c285503 | Shavonne Marks: 09/10/2018 - 23/10/2018
+    
+    
+    ***********************************************************
+    Dramat - Ch³opiec w pasiastej pi¿amie (2008)
+    Re¿yser: Mark Herman
+    Ocena: 8.09
+    Cena: 5.99 PLN
+    Oœmioletni syn niemieckiego oficera SS zaprzyjaŸnia siê z ¿ydowskim ch³opcem przebywaj¹cym w obozie...
+    
+                Lista wypo¿yczeñ:
+            
+    c182592 | Bill Senger: 17/10/2018 - 31/10/2018
+    
+    
+    ***********************************************************
+    Dramat_historyczny - Gladiator (2000)
+    Re¿yser: Ridley Scott
+    Ocena: 8.08
+    Cena: 18.99 PLN
+    Genera³ Maximus - prawa rêka cesarza, szczêœliwy m¹¿ i ojciec - w jednej chwili traci wszystko. Jak...
+    
+                Lista wypo¿yczeñ:
+            
+    c230455 | Ronald Bernier: 08/10/2018 - 22/10/2018
+    
+    c156542 | Carlena Roberts: 20/10/2018 - 03/11/2018
+    
+    c292238 | Dale Rippin: 18/10/2018 - 01/11/2018
+    
+    
+    ***********************************************************
+    
+    ___________________________________________________________
+    
+            Statystyki:
+        
+    Liczba filmów: 30
+    Liczba klientów: 55
+    Profit z wypo¿yczeñ: 670.45z³
+    ___________________________________________________________
+    
+    Gatunek:            Ile sztuk:      Profit:
+        
+    Dramat		15		299.74z³
+    Akcja		1		11.98z³	
+    Biograficzny	3		73.94z³
+    Dramat s¹dowy	1		12.99z³
+    Fantasy		2		76.95z³
+    Gangsterski		1		19.98z³
+    Krymina³		1		15.99z³
+    Thriller		2		55.97z³
+    Surrealistyczny	1		20.97z³
+    Western		1		14.99z³
+    Animacja		1		9.98z³      
+    Dramat historyczny	1		56.97z³
+    
