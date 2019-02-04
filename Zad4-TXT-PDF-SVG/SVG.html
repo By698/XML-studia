@@ -1,43 +1,301 @@
-<?xml version="1.0" encoding="UTF-8"?><svg width="40cm" height="45cm" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.1" contentScriptType="application/ecmascript" contentStyleType="text/css" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><script type="text/ecmascript" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad"> 
-			
-    function play_anim(evt){
-        var obj = evt.target;
-        var obj_fill = obj.getAttribute("fill");
-        var obj_x = obj.getAttribute("x");
-        var obj_rx = obj.getAttribute("rx");
-        var obj_width = obj.getAttribute("width");
-        if(obj_rx == "0"){
-            var timer = setInterval(toRight, 5);
-        } else if( obj_rx == "10"){
-            var timer = setInterval(toLeft, 5);
-        }
-        
-        function toRight(){
-            if ((parseInt(obj_x, 10) + parseInt(obj_width, 10) + 1) &gt;= 785) {
-                clearInterval(timer);
-                obj.setAttribute("rx", "10");	
-            } else {
-                var x = parseInt(obj_x, 10);
-                x = x + 1;
-                obj_x = String(x);
-                obj.setAttribute("x", obj_x);
-                obj.setAttribute("rx", "5");
+<?xml version="1.0" encoding="UTF-8"?><svg width="40cm" height="45cm" preserveAspectRatio="xMidYMid meet"
+    zoomAndPan="magnify" version="1.1" contentScriptType="application/ecmascript" contentStyleType="text/css"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <script type="text/ecmascript" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad">
+
+        function play_anim(evt) {
+            var obj = evt.target;
+            var obj_fill = obj.getAttribute("fill");
+            var obj_x = obj.getAttribute("x");
+            var obj_rx = obj.getAttribute("rx");
+            var obj_width = obj.getAttribute("width");
+            if (obj_rx == "0") {
+                var timer = setInterval(toRight, 5);
+            } else if (obj_rx == "10") {
+                var timer = setInterval(toLeft, 5);
+            }
+
+            function toRight() {
+                if ((parseInt(obj_x, 10) + parseInt(obj_width, 10) + 1) & gt;= 785) {
+                    clearInterval(timer);
+                    obj.setAttribute("rx", "10");
+                } else {
+                    var x = parseInt(obj_x, 10);
+                    x = x + 1;
+                    obj_x = String(x);
+                    obj.setAttribute("x", obj_x);
+                    obj.setAttribute("rx", "5");
+                }
+            }
+
+            function toLeft() {
+                if (parseInt(obj_x, 10) & lt;= 321) {
+                    clearInterval(timer);
+                    obj.setAttribute("rx", "0");
+                } else {
+                    var x = parseInt(obj_x, 10);
+                    x = x - 1;
+                    obj_x = String(x);
+                    obj.setAttribute("x", obj_x);
+                    obj.setAttribute("rx", "5");
+                }
             }
         }
 
-        function toLeft(){
-            if (parseInt(obj_x, 10) &lt;= 321) {
-                clearInterval(timer);
-                obj.setAttribute("rx", "0");	
-            } else {
-                var x = parseInt(obj_x, 10);
-                x = x - 1;
-                obj_x = String(x);
-                obj.setAttribute("x", obj_x);
-                obj.setAttribute("rx", "5");
-            }
-        }
-    }
-    
-</script><rect x="0" y="10" height="850" width="795" fill="#1B3409" stroke="#0D1D02" stroke-width="1"/><text x="100" y="70" font-family="Arial" font-size="0" font-weight="bold" fill="#EBF7E3">Statystyki gatunków filmowych:
-    <animate attributeType="XML" attributeName="font-size" from="0" to="35" dur="3s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></text><rect x="10" y="120" height="0" width="1" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="height" from="120" to="725" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="320" y="120" height="0" width="1" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="height" from="120" to="725" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="785" y="120" height="0" width="1" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="height" from="120" to="725" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="120" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="130" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="450" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="160" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="299.74" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="185" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="165" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Dramat</text><text x="190" y="150" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 15</text><text x="190" y="180" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 299.74zł</text><rect onclick="play_anim(evt)" x="321" y="190" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="220" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="11.98" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="245" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="225" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Akcja</text><text x="190" y="210" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="240" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 11.98zł</text><rect onclick="play_anim(evt)" x="321" y="250" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="90" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="280" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="73.94" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="305" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="285" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Biograficzny</text><text x="190" y="270" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 3</text><text x="190" y="300" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 73.94zł</text><rect onclick="play_anim(evt)" x="321" y="310" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="340" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="12.99" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="365" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="345" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Dramat sądowy</text><text x="190" y="330" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="360" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 12.99zł</text><rect onclick="play_anim(evt)" x="321" y="370" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="60" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="400" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="76.95" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="425" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="405" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Fantasy</text><text x="190" y="390" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 2</text><text x="190" y="420" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 76.95zł</text><rect onclick="play_anim(evt)" x="321" y="430" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="460" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="19.98" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="485" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="465" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Gangsterski</text><text x="190" y="450" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="480" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 19.98zł</text><rect onclick="play_anim(evt)" x="321" y="490" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="520" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="15.99" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="545" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="525" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Kryminał</text><text x="190" y="510" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="540" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 15.99zł</text><rect onclick="play_anim(evt)" x="321" y="550" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="60" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="580" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="55.97" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="605" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="585" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Thriller</text><text x="190" y="570" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 2</text><text x="190" y="600" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 55.97zł</text><rect onclick="play_anim(evt)" x="321" y="610" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="640" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="20.97" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="665" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="645" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Surrealistyczny</text><text x="190" y="630" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="660" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 20.97zł</text><rect onclick="play_anim(evt)" x="321" y="670" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="700" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="14.99" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="725" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="705" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Western</text><text x="190" y="690" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="720" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 14.99zł</text><rect onclick="play_anim(evt)" x="321" y="730" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="760" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="9.98" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="785" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="765" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Animacja</text><text x="190" y="750" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="780" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 9.98zł</text><rect onclick="play_anim(evt)" x="321" y="790" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect onclick="play_anim(evt)" x="321" y="820" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1" rx="0"><animate attributeType="XML" attributeName="width" from="0" to="56.97" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><rect x="10" y="845" height="1" width="0" fill="black" stroke="black" stroke-width="1"><animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace" accumulate="none"/></rect><text id="genre" x="50" y="825" font-family="Arial" font-weight="bold" font-size="15" font-style="italic" fill="#EBF7E3">Dramat historyczny</text><text x="190" y="810" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="840" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 56.97zł</text></svg>
+    </script>
+    <rect x="0" y="10" height="850" width="795" fill="#1B3409" stroke="#0D1D02" stroke-width="1" /><text x="100" y="70"
+        font-family="Arial" font-size="0" font-weight="bold" fill="#EBF7E3">Statystyki gatunków filmowych:
+        <animate attributeType="XML" attributeName="font-size" from="0" to="35" dur="3s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" /></text>
+    <rect x="10" y="120" height="0" width="1" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="height" from="120" to="725" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="320" y="120" height="0" width="1" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="height" from="120" to="725" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="785" y="120" height="0" width="1" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="height" from="120" to="725" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="120" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="130" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="450" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="160" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="299.74" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="185" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="165" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Dramat</text><text x="190" y="150" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 15</text><text x="190" y="180" font-family="Arial" font-size="15" fill="#98CA32">Zarobek:
+        299.74zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="190" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="220" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="11.98" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="245" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="225" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Akcja</text><text x="190" y="210" font-family="Arial" font-size="15" fill="#C0DF81">Ilość filmów:
+        1</text><text x="190" y="240" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 11.98zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="250" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="90" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="280" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="73.94" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="305" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="285" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Biograficzny</text><text x="190" y="270" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 3</text><text x="190" y="300" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 73.94zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="310" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="340" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="12.99" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="365" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="345" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Dramat sądowy</text><text x="190" y="330" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 1</text><text x="190" y="360" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 12.99zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="370" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="60" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="400" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="76.95" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="425" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="405" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Fantasy</text><text x="190" y="390" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 2</text><text x="190" y="420" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 76.95zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="430" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="460" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="19.98" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="485" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="465" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Gangsterski</text><text x="190" y="450" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 1</text><text x="190" y="480" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 19.98zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="490" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="520" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="15.99" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="545" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="525" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Kryminał</text><text x="190" y="510" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 1</text><text x="190" y="540" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 15.99zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="550" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="60" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="580" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="55.97" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="605" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="585" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Thriller</text><text x="190" y="570" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 2</text><text x="190" y="600" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 55.97zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="610" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="640" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="20.97" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="665" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="645" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Surrealistyczny</text><text x="190" y="630" font-family="Arial" font-size="15"
+        fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="660" font-family="Arial" font-size="15"
+        fill="#98CA32">Zarobek: 20.97zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="670" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="700" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="14.99" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="725" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="705" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Western</text><text x="190" y="690" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 1</text><text x="190" y="720" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 14.99zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="730" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="760" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="9.98" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect x="10" y="785" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="765" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Animacja</text><text x="190" y="750" font-family="Arial" font-size="15" fill="#C0DF81">Ilość
+        filmów: 1</text><text x="190" y="780" font-family="Arial" font-size="15" fill="#98CA32">Zarobek: 9.98zł</text>
+    <rect onclick="play_anim(evt)" x="321" y="790" height="20" width="0" fill="#C0DF81" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="30" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect>
+    <rect onclick="play_anim(evt)" x="321" y="820" height="20" width="0" fill="#98CA32" stroke="black" stroke-width="1"
+        rx="0">
+        <animate attributeType="XML" attributeName="width" from="0" to="56.97" dur="6s" fill="freeze"
+            xlink:type="simple" xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear"
+            additive="replace" accumulate="none" />
+    </rect>
+    <rect x="10" y="845" height="1" width="0" fill="black" stroke="black" stroke-width="1">
+        <animate attributeType="XML" attributeName="width" from="0" to="775" dur="6s" fill="freeze" xlink:type="simple"
+            xlink:show="other" xlink:actuate="onLoad" restart="always" calcMode="linear" additive="replace"
+            accumulate="none" />
+    </rect><text id="genre" x="50" y="825" font-family="Arial" font-weight="bold" font-size="15" font-style="italic"
+        fill="#EBF7E3">Dramat historyczny</text><text x="190" y="810" font-family="Arial" font-size="15"
+        fill="#C0DF81">Ilość filmów: 1</text><text x="190" y="840" font-family="Arial" font-size="15"
+        fill="#98CA32">Zarobek: 56.97zł</text></svg>

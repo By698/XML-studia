@@ -19,11 +19,11 @@
 					} else if( obj_rx == "10"){
 						var timer = setInterval(toLeft, 5);
 					}
-					
+
 					function toRight(){
 						if ((parseInt(obj_x, 10) + parseInt(obj_width, 10) + 1) >= 785) {
 							clearInterval(timer);
-							obj.setAttribute("rx", "10");	
+							obj.setAttribute("rx", "10");
 						} else {
 							var x = parseInt(obj_x, 10);
 							x = x + 1;
@@ -36,7 +36,7 @@
 					function toLeft(){
 						if (parseInt(obj_x, 10) <= 321) {
 							clearInterval(timer);
-							obj.setAttribute("rx", "0");	
+							obj.setAttribute("rx", "0");
 						} else {
 							var x = parseInt(obj_x, 10);
 							x = x - 1;
